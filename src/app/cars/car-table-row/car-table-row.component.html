@@ -1,0 +1,8 @@
+<td csImportant [ngClass]="{'row-error': car.isFullyDamaged}"> {{ car.model | uppercase}} </td>
+<td> {{ car?.plate}} </td>
+<td> {{ car?.deliveryDate | date:'shortDate' }} </td>
+<td> {{ car?.deadline | date:'shortDate' }} </td>
+<td> {{ car?.clientFirstName}} 	{{ car?.clientSurName | surnameShortcut }} </td>
+<td csImportant> {{ car?.cost | currency:'PLN':true}} </td>
+<td (click)="removeCar(car, $event)" class="remove-btn style=" style="text-align: center;padding-right: 45px;font-weight: 600;"> ( X ) </td>
+
