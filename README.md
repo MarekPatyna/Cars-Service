@@ -6,7 +6,3 @@
 4. Następnie Cars-Service uruchomić poprzez `Ng Serve`, a Cars-API-Server poprzez `node .`
 5. Wpisać w przeglądarce `localhost:4200`
 6. LOGIN: admin HASŁO: admin
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
